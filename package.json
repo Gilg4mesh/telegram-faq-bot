@@ -1,0 +1,16 @@
+{
+  "name": "telegram-faq-bot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bottender": "^0.15.17",
+    "node-cache": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
