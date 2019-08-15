@@ -125,7 +125,6 @@ const handler = new TelegramHandler()
         history.push(text)
         cache.set(context._session.user.id, history)
 
-        console.log(keys[0])
         if (keys[0] !== '0') {
             let reply = 'FAQ:\n'
             for (let i = 0; i < keys.length; i += 1) {
